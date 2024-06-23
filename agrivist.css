@@ -1,0 +1,475 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: aliceblue
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+}
+.header ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 30px;
+
+} 
+.loginbtn{
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 30px;
+    background-color: #204E51;
+}
+.signupbtn{
+    font-size: 30px;
+    color: white ;
+    border: 2px #204E51 solid;
+    border-radius: 12px;
+    padding: 12px 30px;
+    /* background-color: #fff; */
+    background-color: transparent;
+}
+.hero{
+    height: 600px;
+    color: white;
+    text-align: center;
+    background-image: 
+    linear-gradient( rgba( 0, 0, 0,0.6), rgba(0,0,0,0.6)),
+    url(https://img.freepik.com/free-photo/nature-product-backdrop-farm-sunlight_53876-143219.jpg?t=st=1716638721~exp=1716642321~hmac=129e1af5fa4ac685d1ca4d89c3215b09f2e8ab5c502b0cce14bb6a69579daacd&w=826);
+
+    background-repeat: repeat;
+    background-size: 100% 600px;
+}  
+.hero h1{
+    padding-top: 80px;
+    font-size: 80px;
+}
+.hero p{
+    margin-top: 50px;
+    color: antiquewhite;
+    font-size: 40px;
+}
+.qeybtassgmnt{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+height: 600px;
+top: 1109px;
+padding: 50px 50PX;
+background-color: aliceblue;
+
+}
+.q2 img{
+    height: 400x;
+    width: 450px;
+    border-radius: 25px;
+}
+.q1 h1{
+    padding-top: 30px;
+    font-size: 40px;
+}
+.q1 p{
+    margin-top: 50px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.q2{
+    position: relative;
+}
+.q2 h5{
+    background-color: white;
+    color: #204E51;
+    border: 2px solid;
+    height: 10px;
+    position: absolute;
+    width:200px;
+    padding: 30px; 
+    padding-left: 60px;
+    padding-bottom: 60px;
+    border-radius: 30px;
+    bottom: -6px;
+    right: 100px; 
+    font-size: 30px; 
+}
+.our-service{
+    text-align: center;
+    background-color: aliceblue;
+}
+.our-service h1{
+    font-size: 70px;
+    color:#204E51 ;
+    margin: 30px 20px;
+}
+.our-service p{
+    margin: 30px 250px;
+    color:#204E51 ;
+   
+}
+.p-service{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    margin: 50px 2px;
+    background-color: aliceblue;
+}
+.service{
+    background-color: rgb(181, 173, 163);
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 12px;
+}
+.service img{
+    padding-top: 30px;
+    padding-left: 80px;
+
+}
+.service h1{
+    padding-left: 60px; 
+    font-size: 25px;
+    padding-top: 30px;
+    color:#204E51 ;
+}
+.Parent-Product{
+    display: flex;
+    /* justify-content: center; */
+    gap:20px;
+    justify-content: space-around;
+    margin: 20px 2px;
+   
+
+}
+.Product{
+    background-color: rgb(181, 173, 163);
+    width: 240px;
+    height: 550px;
+    border-radius: 10px;
+    margin: 12px;
+}
+.Product img{
+    width: 200px;
+    height: 180px;
+    margin: 20px 20px;
+    border-radius: 12px;
+}
+.Product h1{
+    padding-left: 30px; 
+    font-size: 25px;
+    padding-top: 30px;
+    color:#204E51 ;
+}
+.Product p{
+    padding-left: 30px; 
+    padding-top: 30px;
+    color:#204E51 ;
+}
+.our-service h5{
+    font-size: 20px;
+    color:#204E51 ;
+}
+
+.Sustain{
+    height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://salro.org/wp-content/uploads/2020/07/1_JGzG0Jhgs-OrMCH1-Qj2MA.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    color: white;
+    padding: 90px;
+    width: 1050px;
+    margin-top: 20px;
+
+}
+.Sustain h1{
+    font-size: 60px;
+    margin-right: 200px;
+}
+.Benefit-parent{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+}
+
+.benefit-left{
+width: 500px;
+}
+.benefit-left h1{
+    font-size: 80px; 
+    margin-bottom: 20px;
+}
+.benefit-left p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.benefit-right{
+    width: 500px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #204E51;
+}
+.icon-parent{
+    margin: 30px;
+    display: flex;
+    gap: 60px;
+    color: white;
+}
+.icon-parent i{
+    font-size: 70px;
+}
+.icon-parent h1{
+    font-size:50px ;
+
+}
+
+
+.Test{
+    height: 500px;
+    width: 100%;
+    padding: 30px;
+    margin-left: 20px;
+    justify-content: center;
+}
+.Grid{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.dhaxda{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #204E51;
+    width: 700px;
+    padding: 40px;
+    color: white;
+}
+.dhaxda h6{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.qoral{
+    width: 910px;
+    height: 250px;
+    padding: 70px;
+}
+.dhaxda img{
+    width: 100px;
+    height: 200px;
+    border-radius: 10px;
+}
+.falaar{
+    padding-top: 130px;
+    font-size: 40px;
+}
+
+.Blog{
+    width:900px;
+    height: 500px;
+    padding: 30px;
+    padding: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+.Blog h1{
+    color: #204E51;
+}
+.Blog p{
+    text-align: center;
+}
+.ka-maamul{
+    /* display: grid;
+    grid-template-columns:(200px,200px,200px); */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.biyo{
+    width: 340px;
+    height: 550px;
+}
+.biyo img{
+    width: 250px;
+    height: 320px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.footer{
+    width: 1000px;
+    height: 150px;
+    background-color: #204E51;
+    display: flex;
+    justify-content: space-around;
+    padding: 90px;
+    color: white;
+}
+.left-footer{
+    width: 400px;
+}
+.footer p{
+    margin-top: 40px;
+    margin-bottom: 50px;  
+}
+
+#l-foter{
+    list-style: none;
+}
+#f-foter{
+    list-style: none;
+}
+.right-footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+
+.header i{
+    display: none;
+} 
+
+@media screen and (max-width:600px){
+     .header ul{
+        display: none;
+    } 
+.btn-header{
+    display: none;
+}
+.header{
+    padding: 15px;
+}
+.header i{
+    font-size: 25px;
+}
+.hero h1{
+    font-size: 30px;
+}
+.loginbtn{
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 30px;
+}
+/* .qeybtassgmnt{
+    flex-direction: column;
+    margin-left: -40;
+    width: 450px;
+    height: 450px;
+}
+.q1{
+    width: 150px;
+    height: 150px;
+}
+.q1 h1{
+    font-size: 30px;
+}
+.q2{
+    width: 200px;
+    height: 200px;
+}
+.q2 img{
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+}
+.q2 h5{
+    margin: 0px;
+    
+} */
+.qeybtassgmnt{
+    display: none;
+}
+.our-service{
+    font-size: 30px;
+}
+.our-service p{
+    font-size: 15px;
+    margin: 0px;
+}
+.our-service h1{
+    font-size: 40px;
+}
+.p-service{
+    flex-direction: column;
+    margin-left: 50px;
+}
+.Sustain{
+    font-size: 20px;
+}
+.Sustain h1{
+    font-size: 50px;
+    margin-left: 10px;
+}
+.Parent-Product{
+    flex-direction: column;
+    margin: 50px;
+}
+.Benefit-parent{
+    flex-direction: column;
+    font-size: 25px;
+    width: 200px;
+    padding-right: 30px;
+    margin: 0px;
+    padding-left: 10px;
+}
+.benefit-left h1{
+    font-size: 30px;
+    padding-right: 50px;
+}
+.benefit-left P{
+    font-size: 30px;
+    padding-right: 50px;
+    width: 300px;
+}
+.benefit-right{
+    font-size: 25px;
+    padding-right: 50px;
+    width: 300px;
+}
+.Sustain{
+    height: 700px;
+    width: 480px;
+    padding: 10px;
+    
+}
+.Sustain h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.dhaxda{
+    flex-direction: column;
+}
+.ka-maamul{
+    flex-direction: column;
+    padding-left: 60px;
+}
+.footer{
+    width: 480px;
+    height: 350px;
+    padding: 10px;
+    flex-direction: column;
+   
+}
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
